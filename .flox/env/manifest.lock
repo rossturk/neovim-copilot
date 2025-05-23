@@ -1,0 +1,138 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "gum": {
+        "pkg-path": "gum"
+      }
+    },
+    "vars": {
+      "BUILDTIME_NIXPKGS_URL": "github:NixOS/nixpkgs/nixpkgs-unstable"
+    },
+    "options": {},
+    "build": {
+      "neovim-cp": {
+        "command": "  mkdir -p $out/bin\n  cp ${myneovim}/bin/nvim $out/bin/nvim\n"
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/01as3jvjai6ny6v3l5ala8fj6z4v30lz-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "rev_count": 802366,
+      "rev_date": "2025-05-18T04:33:40Z",
+      "scrape_date": "2025-05-20T04:26:06.567272Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/amyw3aaqgpchs5cq8hh3d1wdy1hxfjav-gum-0.16.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/km57dk559gffmvsjz61bv0dymyyqx2d4-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "rev_count": 802366,
+      "rev_date": "2025-05-18T04:33:40Z",
+      "scrape_date": "2025-05-20T04:48:48.921133Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/l6v1k7zn25ndvm4axmsbf10b8v8g78jp-gum-0.16.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/nkmpy7npqsw4i8z06d44k9fv58wvxn6i-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "rev_count": 802366,
+      "rev_date": "2025-05-18T04:33:40Z",
+      "scrape_date": "2025-05-20T05:09:14.319348Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mkz77pxvh7h0iamhwwbzmaamcbnri130-gum-0.16.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/951v689kca12iqxpjc2av4yq6mkj42kk-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "292fa7d4f6519c074f0a50394dbbe69859bb6043",
+      "rev_count": 802366,
+      "rev_date": "2025-05-18T04:33:40Z",
+      "scrape_date": "2025-05-20T05:44:50.841556Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w094m6kjn97wa2wrvj4mrjng0fnzmpw3-gum-0.16.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
