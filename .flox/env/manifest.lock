@@ -13,7 +13,7 @@
     "options": {},
     "build": {
       "neovim-cp": {
-        "command": "  mkdir -p $out/bin\n  cp ${myneovim}/bin/nvim $out/bin/nvim\n",
+        "command": "  mkdir -p $out/bin\n  cp -r ${myneovim}/ $out/\n",
         "description": "Neovim with the copilot.vim plugin included"
       }
     }

@@ -11,6 +11,6 @@ BUILDTIME_NIXPKGS_URL="github:NixOS/nixpkgs/nixpkgs-unstable"
 neovim-cp.description="Neovim with the copilot.vim plugin included"
 neovim-cp.command = '''
   mkdir -p $out/bin
-  cp ${myneovim}/bin/nvim $out/bin/nvim
+  cp -r ${myneovim}/ $out/
 '''
 
