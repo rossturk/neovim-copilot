@@ -1,6 +1,5 @@
 version = 1
 
-
 [install]
 gum.pkg-path = "gum"
 
@@ -11,6 +10,7 @@ BUILDTIME_NIXPKGS_URL="github:NixOS/nixpkgs/nixpkgs-unstable"
 neovim-cp.description="Neovim with the copilot.vim plugin included"
 neovim-cp.command = '''
   mkdir -p $out/bin
-  cp -r ${myneovim}/ $out/
+  cp ${myneovim}/bin/nvim $out/bin
+  cp ${myneovim}/bin/nvim-python3 $out/bin
 '''
-
+neovim-cp.version = "0.0.1"
