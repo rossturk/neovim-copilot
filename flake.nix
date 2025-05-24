@@ -1,4 +1,4 @@
-/* {
+{
   description = "Neovim with copilot.vim extension included";
 
   inputs = { nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable"; };
@@ -19,17 +19,4 @@
         };
       }) nixpkgs.legacyPackages;
   };
-} */
-
-
-{
-  inputs.__functor.url = "github:flox/minicapacitor/functor";
-  inputs.__functor.url = "git+ssh://git@github.com/flox/minicapacitor/functor";
-  outputs =
-    _:
-    _ {
-      base.config.allowUnfree = true;
-      recipes.packages = ./.flox/pkgs;
-    };
 }
-
